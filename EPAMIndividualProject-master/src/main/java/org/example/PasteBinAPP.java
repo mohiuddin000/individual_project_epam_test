@@ -3,10 +3,10 @@ package org.example;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
-public class PasteBinObject
+public class PasteBinAPP
 {
     WebDriver driver;
-    public PasteBinObject(WebDriver driver){
+    public PasteBinAPP(WebDriver driver){
         this.driver=driver;
     }
     By textArea=By.xpath("//textarea[@id='postform-text']");

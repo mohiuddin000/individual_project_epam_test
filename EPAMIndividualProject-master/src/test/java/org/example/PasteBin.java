@@ -9,7 +9,7 @@ public class PasteBin {
     public void PasteBin() throws InterruptedException {
         WebDriver driver= BrowserParameter.setupBrowser("chrome","https://pastebin.com/");
 
-        PasteBinObject pasteBin=new PasteBinObject(driver);
+        PasteBinAPP pasteBin=new PasteBinAPP(driver);
 
         pasteBin.writeTextInToNewPasteField("Hello from WebDriver");
         pasteBin.scroll();
