@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="org.example.PasteBinTest">
+        <methods>
+          <include name="PasteBinVerification"/>
+        </methods>
+      </class> <!-- org.example.PasteBinTest -->
+      <class name="org.example.GoogleCloudTest">
+        <methods>
+          <include name="GoogleCloud"/>
+        </methods>
+      </class> <!-- org.example.GoogleCloudTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
